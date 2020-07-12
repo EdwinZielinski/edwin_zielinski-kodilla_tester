@@ -1,8 +1,9 @@
 public class Helloworld {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
-        System.out.println("Edwin");
-        System.out.println('Z');
-        System.out.println(31);
+        String Hello = "Hello World!";
+        String Name = "Edwin";
+        char Letter = 'Z';
+        int age = 31;
+            System.out.println(age);
     }
 }
