@@ -12,9 +12,8 @@ public class SimpleArray {
         System.out.println(band[0]);
 
         int numberOfElements = band.length;
-        String numberOfElements1 = "Moja tablica ma elementów";
-            System.out.println(numberOfElements1);
-             System.out.println(band.length);
+
+            System.out.println("moja tablica ma " + numberOfElements + " elementów");
 
     }
 }

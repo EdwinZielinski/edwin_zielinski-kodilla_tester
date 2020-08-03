@@ -6,6 +6,6 @@ public class MainExtanded {
         char firstLetter = 'E';
         boolean knowHowToKodeWell = false;
         boolean wantToDoItWell = true;
-        System.out.println(wantToDoItWell);
+        System.out.println(myAge);
     }
 }
