@@ -5,7 +5,7 @@ public class FirstClass {
             notebook.checkPrice();
             notebook.checkWeight();
 
-        Notebook heavyNotebook = new Notebook("2000g", 1500);
+        Notebook heavyNotebook = new Notebook("2000 g", 1500);
         System.out.println(heavyNotebook.weight + " " + heavyNotebook.price);
             heavyNotebook.checkPrice();
             heavyNotebook.checkWeight();
