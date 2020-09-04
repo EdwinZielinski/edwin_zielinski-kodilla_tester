@@ -1,6 +1,6 @@
 package com.kodilla.inheritance.Homework;
 
-public class System extends OperetingSystem {
+public class SystemOnOff extends OperetingSystem {
 
     public void turnOn(){
         System.out.println("Turn on the System");
@@ -9,8 +9,8 @@ public class System extends OperetingSystem {
         System.out.println("Turn off the System");
     }
 
-    public System(int year){
-        super (year);
+    public SystemOnOff(int year){
+        super(year);
         System.out.println("System constructor");
     }
 }

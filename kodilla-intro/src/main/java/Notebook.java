@@ -1,11 +1,13 @@
-class Notebook {
+public class Notebook {
     String weight;
     int price;
+    int year;
 
-
-    public Notebook(String weight, int price) {
+    public Notebook(String weight, int price, int year) {
         this.weight = weight;
         this.price = price;
+        this.year = year;
+
 
     }
 
@@ -31,4 +33,11 @@ class Notebook {
             System.out.println("This notebook is very heavy");
         }
     }
+    public void checkYear(){
+        if (this.year >= 2020 && this.price <= 1600) {
+            System.out.println("This notebook is worth to buy");
+
+        }
+    }
+
 }
